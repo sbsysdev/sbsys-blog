@@ -1,4 +1,4 @@
-import styles, {theme} from './configs/styles';
+import styles, { theme } from './configs/styles';
 
 /** @type {import('tailwindcss').Config} */
 export default {
