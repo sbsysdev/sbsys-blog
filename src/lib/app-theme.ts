@@ -1,4 +1,4 @@
-type AppTheme = 'dark' | 'light' | 'os';
+export type AppTheme = 'dark' | 'light' | 'os';
 
 export function loadAppTheme() {
     if (localStorage == undefined || document == undefined || window == undefined) return;
